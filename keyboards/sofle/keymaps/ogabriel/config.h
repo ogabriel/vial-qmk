@@ -33,21 +33,21 @@
 #define GPIO_INPUT_PIN_DELAY 0
 #define DEBOUNCE 3
 
-
 // Vial Support
 #define VIAL_KEYBOARD_UID {0xA7, 0xA7, 0x9C, 0x4C, 0xE0, 0xB8, 0x00, 0x8D}
-
-// The four corners
 #define VIAL_UNLOCK_COMBO_ROWS { 0, 5, 3, 8 }
 #define VIAL_UNLOCK_COMBO_COLS { 0, 0, 0, 0 }
+#define DYNAMIC_KEYMAP_LAYER_COUNT 8
+
+// encoder settings
+#define ENCODER_RESOLUTIONS { 4, 2 }
+#define ENCODER_DIRECTION_FLIP
 
 #define QUICK_TAP_TERM 0
 #ifdef TAPPING_TERM
     #undef TAPPING_TERM
     #define TAPPING_TERM 200
 #endif
-#define ENCODER_DIRECTION_FLIP
-
 
 #define RGBLIGHT_SLEEP
 //
@@ -55,11 +55,6 @@
 
 /* ws2812 RGB LED */
 #define WS2812_DI_PIN D3
-
-#define DYNAMIC_KEYMAP_LAYER_COUNT 8
-
-// encdoder
-#define ENCODER_RESOLUTIONS { 4, 2 }
 
 #ifdef RGB_MATRIX_ENABLE
 #define RGBLIGHT_LED_COUNT 35    // Number of LEDs
