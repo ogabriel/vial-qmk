@@ -40,7 +40,7 @@
 #define DYNAMIC_KEYMAP_LAYER_COUNT 8
 
 // encoder settings
-#define ENCODER_RESOLUTIONS { 4, 2 }
+// #define ENCODER_RESOLUTION 1
 #define ENCODER_DIRECTION_FLIP
 
 #define QUICK_TAP_TERM 0
