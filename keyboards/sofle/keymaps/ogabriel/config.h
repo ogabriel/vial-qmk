@@ -58,6 +58,8 @@
 
 #define DYNAMIC_KEYMAP_LAYER_COUNT 8
 
+// encdoder
+#define ENCODER_RESOLUTIONS { 4, 2 }
 
 #ifdef RGB_MATRIX_ENABLE
 #define RGBLIGHT_LED_COUNT 35    // Number of LEDs
