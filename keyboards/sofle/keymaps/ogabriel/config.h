@@ -49,6 +49,8 @@
     #define TAPPING_TERM 200
 #endif
 
+#define SPLIT_WATCHDOG_ENABLE
+
 #define RGBLIGHT_SLEEP
 //
 #define RGBLIGHT_LAYERS
