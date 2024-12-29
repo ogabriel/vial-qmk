@@ -11,4 +11,4 @@ VIAL_ENABLE = yes
 
 # gamer settings
 NKRO_ENABLE = yes           # Enable N-Key Rollover
-DEBOUNCE_TYPE = sym_defer_pk
+DEBOUNCE_TYPE = asym_eager_defer_pk
