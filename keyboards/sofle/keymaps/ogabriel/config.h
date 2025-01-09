@@ -32,7 +32,7 @@
 #define QMK_KEYS_PER_SCAN 10
 #define GPIO_INPUT_PIN_DELAY 0
 #undef DEBOUNCE
-#define DEBOUNCE 1
+#define DEBOUNCE 5
 
 // Vial Support
 #define VIAL_KEYBOARD_UID {0xA7, 0xA7, 0x9C, 0x4C, 0xE0, 0xB8, 0x00, 0x8D}
